@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;jdbc.Program7ACID&apos; to &apos;Program7&apos;&#x0D;&#x0A;- Original project: &apos;AdvancedJava&apos;&#x0D;&#x0A;- Original element: &apos;jdbc.Program7ACID&apos;&#x0D;&#x0A;- Renamed element: &apos;jdbc.Program7&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Program7ACID&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;jdbc{Program7ACID.java[Program7ACID" matchStrategy="1" name="Program7" qualified="false" references="true" similarDeclarations="false" stamp="1718215763406" textual="false" version="1.0"/>
+</session>

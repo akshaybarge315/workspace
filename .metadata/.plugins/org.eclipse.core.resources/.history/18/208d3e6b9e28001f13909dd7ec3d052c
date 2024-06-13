@@ -1,0 +1,22 @@
+package com.employee.app;
+
+import java.util.List;
+
+import com.employee.DAOImpl.EmployeeDAOImpl;
+import com.employee.model.Employee;
+
+public class App {
+
+	public static void main(String[] args) {
+		EmployeeDAOImpl emplDAOImpl = new EmployeeDAOImpl();
+		
+		List<Employee> employees = emplDAOImpl.getEmployees();
+		
+		for(Employee e :employees) {
+			System.out.println(e);
+		}
+
+		
+	}
+
+}

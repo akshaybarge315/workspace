@@ -1,0 +1,19 @@
+package jdbc;
+
+import java.util.Scanner;
+
+public class Program8ACID {
+	
+	static final String SQL = "UPDATE `employee` SET `salary` = `salary` + ? WHERE `name` = ?";
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String url = "jdbc:mysql://localhost:3306/jdbcclasses";
+		String un = "root";
+		String pwd = "root";
+		
+		try {
+			
+		}
+	}
+}

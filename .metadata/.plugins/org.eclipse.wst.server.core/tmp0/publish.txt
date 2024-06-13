@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Wed Jun 12 18:47:39 IST 2024
+org.eclipse.jst.jee.server\:J2EE=D\:\\Application JDK\\apache-tomcat-9.0.89\\wtpwebapps\\J2EE
+org.eclipse.jst.jee.server\:ServletExample=D\:\\Application JDK\\apache-tomcat-9.0.89\\wtpwebapps\\ServletExample
