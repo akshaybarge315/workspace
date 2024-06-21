@@ -43,11 +43,16 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.tap.mapping"/>
+			<item value="com.tap"/>
 			<item value="com.akki"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="HibernateMapping"/>
+			<item value="HibernateORM"/>
+			<item value="Employee"/>
 			<item value="MavenDemo"/>
 		</list>
 		<list key="projectNameTemplate">
