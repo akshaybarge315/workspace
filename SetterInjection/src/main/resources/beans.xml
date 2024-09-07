@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean id="i1" class="com.ak.classes.Infotainment">
+		<property name="brand" value="JBL"></property>
+	</bean>
+
+    <bean id="i2" class="com.ak.classes.Infotainment">
+		<property name="brand" value="Sony"></property>
+	</bean>
+    
+    <bean id="swift" class="com.ak.impl.Swift" scope="singleton" init-method="start" destroy-method="end">
+		<property name="model" value="swift car"></property>
+		<property name="i" ref="i1"></property>
+	</bean>
+    
+    <bean id="polo" class="com.ak.impl.Polo">
+		<property name="model" value="polo car"></property>
+		<property name="i" ref="i2"></property>
+	</bean>
+
+</beans>

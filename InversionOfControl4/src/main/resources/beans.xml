@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    
+    <bean id="spt" class="com.ak.InversionOfControl4.classes.StandardPractice">
+	</bean>
+    
+    <bean id="jt" class="com.ak.InversionOfControl4.impl.JavaTrainer">
+		<constructor-arg name="trainerName" value="Rohit sir"></constructor-arg>
+		<constructor-arg name="message" value="practice coding"></constructor-arg>
+		<constructor-arg name="spt" ref="spt"></constructor-arg>
+	</bean>
+	
+    <bean id="wt" class="com.ak.InversionOfControl4.impl.WebTrainer">
+		<constructor-arg name="trainerName" value="Blesina ma'am"></constructor-arg>
+		<constructor-arg name="message" value="create web pages"></constructor-arg>
+		<constructor-arg name="spt" ref="spt"></constructor-arg>
+	</bean>
+	
+    <bean id="st" class="com.ak.InversionOfControl4.impl.SQLTrainer">
+		<constructor-arg name="trainerName" value="Blesina ma'am"></constructor-arg>
+		<constructor-arg name="message" value="practice quries"></constructor-arg>
+		<constructor-arg name="spt" ref="spt"></constructor-arg>
+	</bean>
+    
+</beans>

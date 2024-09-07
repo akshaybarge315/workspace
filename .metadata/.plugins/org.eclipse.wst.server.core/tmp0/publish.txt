@@ -1,4 +1,11 @@
 #Tomcat publish data
-#Wed Jun 12 18:47:39 IST 2024
-org.eclipse.jst.jee.server\:J2EE=D\:\\Application JDK\\apache-tomcat-9.0.89\\wtpwebapps\\J2EE
-org.eclipse.jst.jee.server\:ServletExample=D\:\\Application JDK\\apache-tomcat-9.0.89\\wtpwebapps\\ServletExample
+#Wed Aug 28 17:53:19 IST 2024
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\HP\\.m2\\repository\\org\\springframework\\spring-web\\6.1.11\\spring-web-6.1.11.jar=D\:\\Application JDK\\apache-tomcat-9.0.89\\wtpwebapps\\SpringMvcMaven\\WEB-INF\\lib\\spring-web-6.1.11.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\HP\\eclipse-workspace\\SpringMVC1\\webContent\\WEB-INF\\lib\\spring-web-5.3.8.jar=D\:\\Application JDK\\apache-tomcat-9.0.89\\wtpwebapps\\SpringMVC1\\WEB-INF\\lib\\spring-web-5.3.8.jar
+org.eclipse.jst.jee.server\:/binary\:D\:\\Application\ JDK\\spring-framework-5.3.8\\libs\\spring-web-5.3.8-sources.jar=D\:\\Application JDK\\apache-tomcat-9.0.89\\wtpwebapps\\SpringHibernateMVC\\WEB-INF\\lib\\spring-web-5.3.8-sources.jar
+org.eclipse.jst.jee.server\:/binary\:D\:\\Application\ JDK\\spring-framework-5.3.8\\libs\\spring-web-5.3.8.jar=D\:\\Application JDK\\apache-tomcat-9.0.89\\wtpwebapps\\SpringHibernateMVC\\WEB-INF\\lib\\spring-web-5.3.8.jar
+org.eclipse.jst.jee.server\:FoodDeliveryApp=D\:\\Application JDK\\apache-tomcat-9.0.89\\wtpwebapps\\FoodDeliveryApp
+org.eclipse.jst.jee.server\:SpringHibernateMVC=D\:\\Application JDK\\apache-tomcat-9.0.89\\wtpwebapps\\SpringHibernateMVC
+org.eclipse.jst.jee.server\:SpringMVC1=D\:\\Application JDK\\apache-tomcat-9.0.89\\wtpwebapps\\SpringMVC1
+org.eclipse.jst.jee.server\:SpringMVC2=D\:\\Application JDK\\apache-tomcat-9.0.89\\wtpwebapps\\SpringMVC2
+org.eclipse.jst.jee.server\:SpringMvcMaven=D\:\\Application JDK\\apache-tomcat-9.0.89\\wtpwebapps\\SpringMvcMaven

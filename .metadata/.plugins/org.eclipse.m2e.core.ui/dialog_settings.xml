@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\HP\eclipse-workspace\SpringHibernateMVC"/>
+			<item value="C:\Users\HP\eclipse-workspace\SpringMVC1"/>
+			<item value="C:\Users\HP\eclipse-workspace\InversionOfControl1\src\main\java\com\tap\InversionOfControl1\classes\President.java"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -13,6 +16,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -43,17 +47,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.tap.mapping"/>
-			<item value="com.tap"/>
-			<item value="com.akki"/>
+			<item value="com.ak"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="HibernateMapping"/>
-			<item value="HibernateORM"/>
-			<item value="Employee"/>
-			<item value="MavenDemo"/>
+			<item value="SpringMvcMaven"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -70,5 +69,30 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="667"/>
+		<item key="x" value="720"/>
+		<item key="y" value="96"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\HP\Downloads\SpringCRUD\SpringCRUD"/>
+			<item value="C:\Users\HP\Downloads\IocUsingAnnotation3"/>
+			<item value="C:\Users\HP\Downloads\SetterInjection"/>
+			<item value="C:\Users\HP\Downloads\InversionOfControl4"/>
+			<item value="C:\Users\HP\Downloads\InversionOfControl3\InversionOfControl3"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
 	</section>
 </section>
